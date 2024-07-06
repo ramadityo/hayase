@@ -92,6 +92,7 @@ export default function SignupForm() {
             //     email: email,
             //     password: password,
             // });
+            return null;
         }
     }
 
