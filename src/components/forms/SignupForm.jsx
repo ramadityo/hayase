@@ -7,7 +7,7 @@ import { Toaster } from "react-hot-toast";
 import { failedLogin, successLogin, successRegister, failedRegister } from "@/components/ToastNotif";
 
 // Database
-import supabase from "@/utils/supabase/client";
+// import supabase from "@/utils/supabase/client";
 
 // FONTS
 import { jakarta_bold, jakarta_regular, jakarta_semibold, jakarta_medium, jakarta_light } from "@/fonts";

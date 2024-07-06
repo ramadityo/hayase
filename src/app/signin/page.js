@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 // Database
-import { createClient } from "@/utils/supabase/client";
+// import { createClient } from "@/utils/supabase/client";
 
 // FONTS
 import { jakarta_bold, jakarta_regular, jakarta_semibold, jakarta_medium, jakarta_light } from "@/fonts";
@@ -19,7 +19,7 @@ export default function Signin() {
     const [password, setPassword] = useState("");
 
     const handleSubmit = (e) => {
-        // e.preventDefault();
+        e.preventDefault();
     };
     return (
         <div className="w-full h-screen flex md:gap-0 xl:gap-10 gap-0">
