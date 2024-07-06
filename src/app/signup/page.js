@@ -18,7 +18,7 @@ export default function page() {
                 <div className=" bg-[#7A6CCF] relative transition-all duration-500 md:flex-0 xl:flex-1 flex-0 overflow-hidden">
                     <Image src="/images/hayase-login.png" alt="hayase login" width={500} height={200} className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-30" />
                     <div className="absolute inset-0 bg-[#1A0C69]/30 z-20"></div>
-                    <Image src="/images/yuuka-signup.jpg" placeholder="blur" blurDataURL="/" alt="login" className="absolute w-full h-full object-cover z-10" width={800} height={800} />
+                    <Image src="/images/signup-yuuka.webp" quality={100} placeholder="blur" blurDataURL="/" alt="login" className="absolute w-full h-full object-cover z-10" width={800} height={800} />
                     <Link href={"https://x.com/takataka052955/status/1702350944929976602"} target="_blank">
                         <div className=" transition-all absolute bottom-7 right-7 px-5 py-3 rounded-xl z-40 bg-[#1A0C69]/55 hover:bg-[#1A0C69]/40">
                             <p className={`text-white text-sm z-40 ${jakarta_semibold.className}`}>Source</p>
