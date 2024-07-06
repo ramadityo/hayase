@@ -87,11 +87,11 @@ export default function SignupForm() {
             failedRegister();
             return null;
         } else {
-            const { data, error } = await supabase.auth.signUp({
-                username: username,
-                email: email,
-                password: password,
-            });
+            // const { data, error } = await supabase.auth.signUp({
+            //     username: username,
+            //     email: email,
+            //     password: password,
+            // });
         }
     }
 
