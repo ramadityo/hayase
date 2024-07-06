@@ -11,7 +11,7 @@ import { IoIosArrowBack } from "react-icons/io";
 import SignupForm from "@/components/forms/SignupForm";
 import ClientWrapper from "@/components/ClientWrapper";
 
-export default function page() {
+export default function Signup() {
     return (
         <div className="w-full h-screen flex md:gap-0 xl:gap-10 gap-0">
             <ClientWrapper>

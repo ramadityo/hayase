@@ -14,7 +14,7 @@ import { jakarta_bold, jakarta_regular, jakarta_semibold, jakarta_medium, jakart
 import { IoIosArrowBack } from "react-icons/io";
 import { Toaster } from "react-hot-toast";
 
-export default function page() {
+export default function Signin() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
