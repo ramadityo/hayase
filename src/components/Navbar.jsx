@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState } from "react";
 
@@ -7,6 +7,7 @@ import { jakarta_bold, jakarta_regular, jakarta_semibold, jakarta_medium, jakart
 
 // ICONS
 import { IoSunny, IoMoon } from "react-icons/io5";
+import Time from "./Time";
 
 function Navbar() {
     const [darkMode, setDarkMode] = useState(false);
@@ -20,7 +21,9 @@ function Navbar() {
             <h1 className={`${jakarta_bold.className} text-[#7A6CCF] text-3xl`}>Hayase</h1>
 
             <div className="flex items-center gap-4">
-                <p className={`${jakarta_light.className} text-2xl`}>10:00 AM</p>
+                <p className={`${jakarta_light.className} text-2xl`}>
+                    <Time />
+                </p>
                 <div className="relative">
                     <span className="w-5 h-5 bg-green-500"></span>
                 </div>
